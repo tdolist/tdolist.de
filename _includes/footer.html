@@ -1,10 +1,18 @@
-<footer class="site-footer">
-  <div class="wrapper">
-        <div class="small footer-col-wrapper">
-          {% for legal in site.legal %}
-          <span class="footer-col"><a href="{{ legal.url | prepend: site.baseurl }}">{{ legal.title }}</a></span>
-          {% endfor %}
-          <div class="copyright">&copy; 2016 by <a href="{{ site.baseurl }}/">tdolist</a></div>
+<footer class="footer">
+    <div class="row">
+        <div class="small-12 columns">
+            <p class="links">
+              {% for legal in site.legal %}
+                <a href="{{ legal.url | prepend: site.baseurl }}">{{ legal.title }}</a>
+              {% endfor %}
+            </p>
+            <p class="copywrite">Copyright ©
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>
+                by
+            <a href="{{ site.baseurl }}/" target="_blank">tdolist</a>
+            </p>
         </div>
-      </div>
+    </div>
 </footer>
