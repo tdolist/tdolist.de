@@ -175,7 +175,7 @@ DB4D50
    /* background-color: lightgrey;*/
 
   background-size: cover;
-    background-position:center; 
+    background-position:center;
 
   height: 55vh;
 
@@ -191,7 +191,7 @@ DB4D50
    /* background-color: lightgrey;*/
 
   background-size: cover;
-    background-position:center; 
+    background-position:center;
 
   height: 55vh;
 
@@ -207,7 +207,7 @@ DB4D50
    /* background-color: lightgrey;*/
 
   background-size: cover;
-    background-position:center; 
+    background-position:center;
 
   height: 55vh;
 
@@ -223,7 +223,7 @@ DB4D50
    /* background-color: lightgrey;*/
 
   background-size: cover;
-    background-position:center; 
+    background-position:center;
 
   height: 55vh;
 
@@ -239,7 +239,7 @@ DB4D50
    /* background-color: lightgrey;*/
 
   background-size: cover;
-    background-position:center; 
+    background-position:center;
 
   height: 55vh;
 
@@ -256,43 +256,43 @@ DB4D50
 
 
     position: relative;
-    
-    
-      
-      
+
+
+
+
      }
 
 .title_picture div.big {
     text-align: center;
 
     position: relative;
-    
+
     background: url("../img/transparent_bg.png") repeat;
-      
-      
+
+
     top: 100%;
 
     -webkit-transform: translateY(-140%);
 
     -ms-transform: translateY(-140%);
 
-    transform: translateY(-140%); 
+    transform: translateY(-140%);
 }
 .title_picture div.inner {
     text-align: left;
 
     position: relative;
-    
+
     /*background: url("../img/transparent_bg.png") repeat;*/
-      
-      
+
+
     left: 50%;
 
     -webkit-transform: translateX(-50%);
 
     -ms-transform: translateX(-50%);
 
-    transform: translateX(-50%); 
+    transform: translateX(-50%);
 }
 .art-centered {
      left: 50%;
@@ -303,10 +303,13 @@ text-align: left;
 
     -ms-transform: translateX(-50%);
 
-    transform: translateX(-50%); 
+    transform: translateX(-50%);
 }
 /**********************OTHER *****************************/
 
+.if_empty {
+  min-height: 105px;
+}
 hr.transparent {
     opacity: 0;
 }
