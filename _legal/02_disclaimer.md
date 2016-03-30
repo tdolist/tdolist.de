@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Haftungsausschluss"
+title: "Disclaimer"
 permalink: /disclaimer/
 ---
 

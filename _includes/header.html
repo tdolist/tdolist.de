@@ -12,5 +12,11 @@
     </nav>
     <!-- modal content -->
     <!-- ENDE NAVIGATION -->
-    <header class="title_picture_tdo">
+    {% if page.url != '/' %}
+    {% assign picture = "title_picture_" | append: page.url | replace: '/', '' %}
+    {% else %}
+    {% assign picture = "title_picture" %}
+    {% endif %}
+    <header class="{{ picture }}">
+      {{ picture }}
     </header>
