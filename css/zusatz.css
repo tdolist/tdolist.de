@@ -217,9 +217,41 @@ DB4D50
            height: 40vh;
       }
 }
+.title_picture_tdo-server{
+
+  background: url("../img/bg7.jpe") no-repeat center top;
+   /* background-color: lightgrey;*/
+
+  background-size: cover;
+    background-position:center;
+
+  height: 55vh;
+
+  overflow: hidden; }
+  @media only screen and (max-width: 40.063em) {
+      .title_picture{
+           height: 40vh;
+      }
+}
 .title_picture_disclaimer{
 
-  background: url("../img/bg4.jpe") no-repeat center top;
+  background: url("../img/bg2.jpe") no-repeat center top;
+   /* background-color: lightgrey;*/
+
+  background-size: cover;
+    background-position:center;
+
+  height: 55vh;
+
+  overflow: hidden; }
+  @media only screen and (max-width: 40.063em) {
+      .title_picture{
+           height: 40vh;
+      }
+}
+.title_picture_team{
+
+  background: url("../img/bg5.jpe") no-repeat center top;
    /* background-color: lightgrey;*/
 
   background-size: cover;
