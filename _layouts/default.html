@@ -17,8 +17,8 @@
     </article>
     <hr class="transparent" />
     {% include footer.html %}
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
+    <script src="{{ "/js/vendor/jquery.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/foundation.min.js" | prepend: site.baseurl }}"></script>
     <script>
         $(document).foundation();
 
