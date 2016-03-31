@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ">tdo"
+title: "> tdo"
 permalink: /tdo/
 ---
 <p style="float: right;">View on <a href="https://github.com/tdolist/tdo">GitHub</a></p>
