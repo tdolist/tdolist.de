@@ -1,0 +1,18 @@
+{% assign team = site.data.github.members %}
+<div class="row">
+  {% for member in team %}
+  <div class="medium-4 columns">
+    <div class="profile-card">
+      <img src="{{ member[1].image }}" alt="{{ member[1].name }}">
+      <div class="profile-info">
+        <h4 class="subheader">{{ member[1].name }}</h4>
+        <p>Student at TU Dresden</p>
+        <p>{{ member[1].course }}</p>
+        <ul class="inline-list">
+          <li><a href="{{ 'https://github.com/' | append: member[0] }}"><i class="fi-social-github"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
