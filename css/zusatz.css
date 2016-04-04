@@ -244,7 +244,7 @@ DB4D50 .menu .account-action li {
 /**********************OTHER *****************************/
 
 .if_empty {
-    min-height: 105px;
+    min-height: 10.7rem;
 }
 hr.transparent {
     opacity: 0;
