@@ -35,8 +35,7 @@ h
     top: 3%;
     right: 3%;
 }
-.menu .account a,
-.menu .account i {
+.menu .account a, .menu .account i {
     color: #fff;
 }
 @media only screen and (min-width: 80.063em) {
@@ -277,6 +276,10 @@ hr.transparent {
 .profile-card .profile-info p {
     text-align: center;
 }
+.profile-card .profile-info p.organisation {
+    margin: 0;
+    font-weight: bold;
+}
 .profile-card .profile-info .inline-list {
     text-align: center;
     margin-bottom: 1rem;
@@ -314,6 +317,14 @@ hr.transparent {
     color: #333;
 }
 .profile-card .profile-info .inline-list i.fi-social-github:hover {
+    transform: scale(1.5);
+    transition: all .5s ease-in-out;
+}
+.profile-card .profile-info .inline-list i.fi-page {
+    font-size: 1.5rem;
+    color: #333;
+}
+.profile-card .profile-info .inline-list i.fi-page {
     transform: scale(1.5);
     transition: all .5s ease-in-out;
 }

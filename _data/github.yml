@@ -3,10 +3,12 @@ members:
     image: https://avatars3.githubusercontent.com/u/6068259?v=3&s=460
     name: Felix
     course: 'Dipl. Informationssystemtechnik'
+    homepage: http://felixdoering.com
   Feliix42:
     image: https://avatars0.githubusercontent.com/u/9332912?v=3&s=460
     name: Felix
     course: 'BA Informatik'
+    homepage: http://dummyco.de
   lucasvog:
     image: https://avatars1.githubusercontent.com/u/10455324?v=3&s=460
     name: Lucas
