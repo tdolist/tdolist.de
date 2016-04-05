@@ -10,7 +10,10 @@
         <p>{{ member[1].course }}</p>
         <ul class="inline-list">
           {% if member[1].homepage %}
-          <li><a href="{{ member[1].homepage }}" target="_blank"><i class="fi-page"></i></a></li>
+          <li><a href="{{ member[1].homepage }}" target="_blank"><i class="fi-web"></i></a></li>
+          {% endif %}
+          {% if member[1].mail %}
+          <li><a href="{{ member[1].mail | prepend: 'mailto:' }}"><i class="fi-mail"></i></a></li>
           {% endif %}
           <li><a href="{{ 'https://github.com/' | append: member[0] }}"><i class="fi-social-github"></i></a></li>
         </ul>

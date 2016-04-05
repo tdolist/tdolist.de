@@ -288,51 +288,30 @@ hr.transparent {
     float: none;
     display: inline-block;
 }
-.profile-card .profile-info .inline-list i.fi-social-facebook {
-    font-size: 1.5rem;
-    color: #3b5998;
-}
-.profile-card .profile-info .inline-list i.fi-social-facebook:hover {
-    transform: scale(1.5);
-    transition: all .5s ease-in-out;
-}
-.profile-card .profile-info .inline-list i.fi-social-twitter {
-    font-size: 1.5rem;
-    color: #55acee;
-}
-.profile-card .profile-info .inline-list i.fi-social-twitter:hover {
-    transform: scale(1.5);
-    transition: all .5s ease-in-out;
-}
-.profile-card .profile-info .inline-list i.fi-social-linkedin {
-    font-size: 1.5rem;
-    color: #0077b5;
-}
-.profile-card .profile-info .inline-list i.fi-social-linkedin:hover {
-    transform: scale(1.5);
-    transition: all .5s ease-in-out;
-}
 .profile-card .profile-info .inline-list i.fi-social-github {
     font-size: 1.5rem;
     color: #333;
 }
 .profile-card .profile-info .inline-list i.fi-social-github:hover {
     transform: scale(1.5);
-    transition: all .5s ease-in-out;
+    transition: all .25s ease-in-out;
+    color:#64A503;
 }
-.profile-card .profile-info .inline-list i.fi-page {
+.profile-card .profile-info .inline-list i.fi-web {
     font-size: 1.5rem;
     color: #333;
 }
-.profile-card .profile-info .inline-list i.fi-page {
+.profile-card .profile-info .inline-list i.fi-web:hover {
     transform: scale(1.5);
-    transition: all .5s ease-in-out;
+    transition: all .25s ease-in-out;
+    color:#64A503;
 }
-.profile-card .profile-info .inline-list i.fi-social-youtube {
+.profile-card .profile-info .inline-list i.fi-mail {
     font-size: 1.5rem;
-    color: #cc181e;
+    color: #333;
 }
-.profile-card .profile-info .inline-list i.fi-social-youtube:hover {
+.profile-card .profile-info .inline-list i.fi-mail:hover {
     transform: scale(1.5);
-    transition: all .5s ease-in-out;
+    transition: all .25s ease-in-out;
+    color:#64A503;
 }
