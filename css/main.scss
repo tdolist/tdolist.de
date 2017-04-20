@@ -1,3 +1,8 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset  "utf-8";
+
 h
 /* -----------NAVIGATION ---------------*/
 
@@ -249,6 +254,20 @@ hr.transparent {
     opacity: 0;
 }
 
+.highlighter-rouge {
+  border: none !important;
+}
+
+.highlight {
+  background: #E6E6E6;
+  padding: 5px 10px 5px 10px;
+  code{
+    padding: 0;
+    background-color: #E6E6E6 !important;
+    border-width: 0px !important;
+  }
+}
+
 /********************Profiles****************************/
 
 .profile-card {
@@ -315,3 +334,6 @@ hr.transparent {
     transition: all .25s ease-in-out;
     color:#64A503;
 }
+
+
+@import "https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css","foundation.min.css", "normalize.css"
