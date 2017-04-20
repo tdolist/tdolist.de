@@ -35,3 +35,5 @@ collections:
     output: true
   legal:
     output: true
+
+exclude: [README.md]
