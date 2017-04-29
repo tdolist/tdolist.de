@@ -17,6 +17,8 @@ This is a rewrite of our old [tdo](https://github.com/tdolist/tdo). For informat
 This is a simple todo list tool that integrates in your terminal workflow.  
 Featuring multiple todo lists and exporting your list to Markdown, it aims to be a well-structured assistant in your daily routine when you don't feel like leaving the terminal.
 
+<center><script type="text/javascript" src="https://asciinema.org/a/cwfmwgfzitfc4zhzjj8rt65sg.js" data-loop="1" data-theme="asciinema" data-autoplay="1" id="asciicast-cwfmwgfzitfc4zhzjj8rt65sg" async></script></center>
+
 ## Installation
 
 Install with cargo:
