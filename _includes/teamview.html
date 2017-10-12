@@ -6,7 +6,7 @@
       <img src="{{ member[1].image }}" alt="{{ member[1].name }}">
       <div class="profile-info">
         <h4 class="subheader">{{ member[1].name }}</h4>
-        <p class="organisation">Student at TU Dresden</p>
+        <p class="organisation">{{ member[1].education }}</p>
         <p>{{ member[1].course }}</p>
         <ul class="inline-list">
           {% if member[1].homepage %}

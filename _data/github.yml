@@ -2,16 +2,19 @@ members:
   h4llow3En:
     image: https://avatars.githubusercontent.com/u/6068259?v=3
     name: Felix
-    course: 'Dipl. Informationssystemtechnik'
+    education: 'Apprentice at 3m5. Media GmbH'
+    course: 'Fachinformatiker'
     homepage: https://felixdoering.com
     mail: mail@felixdoering.com
   Feliix42:
     image: https://avatars.githubusercontent.com/u/9332912?v=3
     name: Felix
+    education: 'Student at TU Dresden'
     course: 'BA Informatik'
     homepage: https://dummyco.de
     mail: dev@felixwittwer.de
   lucasvog:
     image: https://avatars.githubusercontent.com/u/10455324?v=3
     name: Lucas
+    education: 'Student at TU Dresden'
     course: "BA Medieninformatik"
