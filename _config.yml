@@ -36,4 +36,4 @@ collections:
   legal:
     output: true
 
-exclude: [README.md, vendor]
+exclude: [README.md, Gemfile, Gemfile.lock, vendor]
