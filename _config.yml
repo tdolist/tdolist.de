@@ -36,4 +36,4 @@ collections:
   legal:
     output: true
 
-exclude: [README.md]
+exclude: [README.md, vendor]

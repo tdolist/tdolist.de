@@ -1,3 +1,8 @@
 _site
 .sass-cache
 .jekyll-metadata
+
+.bundle/
+    # Add Gemfile.lock because Gemfile fetches the newest
+Gemfile.lock
+vendor/
